@@ -26,3 +26,21 @@
         - git status -> melihat kondisi file
         - git log -> melihat history
     4. Mengambil file
+        - git clone (pertama kali project tersebut, anak baru)
+            - command `git clone https://github.com/ramadnsyh/belajar-git-batch30.git`
+                - sudah ada .git
+                - sudah ada remote repository
+                - history udah plg update
+                - file juga plg update
+        - git pull (setiap pagi, setiap assign task baru)
+            - command `git pull origin master`
+                - update history atau files
+    5. Simulasi conflict di git
+        - kalau `history` antara di local dan remote tidak sama
+        - git pull origin master lalu solve conflictnya kalau ada
+        
+    6. Cara buat branching
+        - git branch -> list ada brach apa aja
+        - git branch <nama_branch> -> kita buat branch baru
+        - git checkout <nama_branch> -> kita pindah ke branch tersebut
+        - git checkout -b <nama_branch> -> kita buat branch baru dan pindah ke branch tersebut
