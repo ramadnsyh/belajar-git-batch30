@@ -1,0 +1,23 @@
+# Tutorial Git
+
+1. Buka command line interface
+    a. Bisa pake jupyter-lab punya
+    b. `command prompt`, `git bash`, `miniconda prompt`, `anaconda prompt`, `terminal` (make sure dia ini windows based atau unix based)
+    
+2. Persiapan Awal
+    1. Repository Github -> kita bisa buat di akun github
+    2. Di komputer kita, folder sudah terintegrasi
+        2a. kita sudah init folder kita git -> 
+            - kalau kita status itu ada message kalau misal kan branch mana / 
+            - `.git` ada dalam folder tersebut
+        2b. sudah ada alamat remote repository
+            - git remote -v
+            
+        command:
+        - `git init`
+        - `git remote add origin https://github.com/ramadnsyh/belajar-git-batch30.git`
+        
+    3. Mengirimkan file
+        - git add <name_file_1> <name_file_2>
+        - git commit -m "<commit_message>"
+        - git push origin master
