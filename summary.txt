@@ -21,3 +21,4 @@
         - git add <name_file_1> <name_file_2>
         - git commit -m "<commit_message>"
         - git push origin master
+    4. Mengambil file
